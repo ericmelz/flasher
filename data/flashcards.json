@@ -1,7 +1,11 @@
 [
   {
     "question": "What is the English word for **Qué**?",
-    "answers": ["who", "that"],
+    "answers": [
+      "who",
+      "that"
+    ],
+    "audio_url": "https://otter.ai/s/OdM_-M9bRL-US3jFIDjExQ?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",
@@ -11,7 +15,10 @@
   },
   {
     "question": "¿Cómo se dice **that** en español??",
-    "answers": ["qué"],
+    "answers": [
+      "qué"
+    ],
+    "audio_url": "https://otter.ai/s/OdM_-M9bRL-US3jFIDjExQ?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",
@@ -21,7 +28,10 @@
   },
   {
     "question": "¿Cómo se dice **who** en español??",
-    "answers": ["qué"],
+    "answers": [
+      "qué"
+    ],
+    "audio_url": "https://otter.ai/s/OdM_-M9bRL-US3jFIDjExQ?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",
@@ -31,7 +41,10 @@
   },
   {
     "question": "What is the English word for **y**?",
-    "answers": ["who", "that"],
+    "answers": [
+      "and"
+    ],
+    "audio_url": "https://otter.ai/s/QEgfZYJkRDaVmGkK2LSS_A?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",
@@ -41,7 +54,10 @@
   },
   {
     "question": "¿Cómo se dice **and** en español??",
-    "answers": ["y"],
+    "answers": [
+      "y"
+    ],
+    "audio_url": "https://otter.ai/s/QEgfZYJkRDaVmGkK2LSS_A?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",

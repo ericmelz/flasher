@@ -1,10 +1,11 @@
 from pydantic import BaseModel, RootModel
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 
 class Flashcard(BaseModel):
     question: str
     answers: List[str]
+    audio_url: Optional[str] = None
     tags: Dict[str, Any] = {}  # e.g., {"language": "Spanish", "book": "Book1", "chapter": 2}
 
 

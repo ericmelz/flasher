@@ -47,6 +47,9 @@ if st.session_state["fc_state"] == "GUESSED":
         joined = '\n'.join(starred)
         verb = "are" if len(correct_answers) > 1 else "is"
         st.error(f"Nope!\nThe correct answers {verb}:\n{joined}")
-    st.markdown("[Audio](<https://otter.ai/s/CMqz0gzRQuaqysgNFQms9A?snpt=true>)")
+    print(f"***{st.session_state['fc']}")
+    if st.session_state['fc'].audio_url is not None:
+        audio_url = st.session_state['fc'].audio_url
+        st.markdown(f"[Audio]({audio_url})")
 
     next_button = st.button("Next", on_click=reset)
