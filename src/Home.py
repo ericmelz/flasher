@@ -7,6 +7,7 @@ answer = st.text_input("English word")
 submit = st.button("submit")
 if submit:
     if answer == "but":
-        st.markdown("Correct")
+        st.info("Correct!!")
+        st.balloons()
     else:
-        st.markdown("Sorry!")
+        st.error("Sorry!")
