@@ -1,5 +1,5 @@
 import pytest
-from models.flashcard import Flashcard, FlashcardList
+from src.models.flashcard import Flashcard, FlashcardList
 
 
 @pytest.fixture
