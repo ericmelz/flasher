@@ -54,4 +54,6 @@ if st.session_state["fc_state"] == "GUESSED":
         st.error(f"Nope!\nThe correct answers {verb}:\n{joined}")
     st.markdown("[Audio](<https://otter.ai/s/CMqz0gzRQuaqysgNFQms9A?snpt=true>)")
 
+    st.markdown("new stuff")
+    dummy_button = st.button("Dummy")
     next_button = st.button("Next", on_click=reset)
