@@ -11,7 +11,7 @@
   },
   {
     "question": "¿Cómo se dice **that** en español??",
-    "answers": ["Qué"],
+    "answers": ["qué"],
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",
@@ -22,6 +22,26 @@
   {
     "question": "¿Cómo se dice **who** en español??",
     "answers": ["qué"],
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **y**?",
+    "answers": ["who", "that"],
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **and** en español??",
+    "answers": ["y"],
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",

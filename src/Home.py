@@ -24,25 +24,20 @@ if st.session_state["fc_state"] == "NEW_QUESTION":
     # TODO add this to data "What is the English word for **Qué**?"
 
 human_answer = st.text_input(st.session_state["fc"].question)
-print(f"*** after human_answer, {human_answer=}")
 
 submit = st.button("submit")
 
 if submit:
-    print(f"*** submitted human_answer={human_answer}")
     st.session_state["fc_state"] = "GUESSED"
 
 
 def reset():
-    print("***resetting***")
     st.session_state["fc_state"] = "NEW_QUESTION"
 
 
 if st.session_state["fc_state"] == "GUESSED":
     # Note here we use the saved flashcard from when we entered the ANSWERING state
-    print(f"***{st.session_state['fc']=}")
     correct_answers = st.session_state['fc'].answers
-    print(f"***{correct_answers=}")
     user_answer = human_answer.lower().strip()
     if user_answer in correct_answers:
         st.success("Correct!!")
@@ -54,6 +49,4 @@ if st.session_state["fc_state"] == "GUESSED":
         st.error(f"Nope!\nThe correct answers {verb}:\n{joined}")
     st.markdown("[Audio](<https://otter.ai/s/CMqz0gzRQuaqysgNFQms9A?snpt=true>)")
 
-    st.markdown("new stuff")
-    dummy_button = st.button("Dummy")
     next_button = st.button("Next", on_click=reset)
