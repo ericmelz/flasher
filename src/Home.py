@@ -43,10 +43,14 @@ if st.session_state["fc_state"] == "GUESSED":
         st.success("Correct!!")
         st.balloons()
     else:
-        starred = [f'* {x}' for x in correct_answers]
-        joined = '\n'.join(starred)
+        if len(correct_answers) > 1:
+            starred = [f'* {x}' for x in correct_answers]
+            answer_display = '\n' + '\n'.join(starred)
+        else:
+            answer_display = f'**{correct_answers[0]}**'
         verb = "are" if len(correct_answers) > 1 else "is"
-        st.error(f"Nope!\nThe correct answers {verb}:\n{joined}")
+        s = "s" if len(correct_answers) > 1 else ""
+        st.error(f"Nope!\nThe correct answer{s} {verb}: {answer_display}")
     print(f"***{st.session_state['fc']}")
     if st.session_state['fc'].audio_url is not None:
         audio_url = st.session_state['fc'].audio_url
