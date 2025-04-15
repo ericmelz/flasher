@@ -1,11 +1,12 @@
 import json
 import random
 from pathlib import Path
-from src.models.flashcard import Flashcard, FlashcardList
+from models.flashcard import Flashcard, FlashcardList
 
 
 class FlashcardData:
-    def __init__(self, data_path: Path = Path(__file__).parent.parent / "data" / "flashcards.json"):
+    def __init__(self, data_path: Path = Path(__file__).parent.parent.parent / "data" / "flashcards.json"):
+        print(f'***{data_path=}')
         self.data_path = data_path
         self.flashcards = self._load_data()
 
