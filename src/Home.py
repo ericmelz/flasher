@@ -2,16 +2,17 @@ import streamlit as st
 
 st.title("Flasher")
 
-st.markdown("<https://otter.ai/s/kR-WbeUUT7asz52Hwv0DNQ?snpt=true>")
-
-st.markdown("The spanish word is **pero**")
-answer = st.text_input("English word")
+answer = st.text_input("What is the English word for **Qué**?")
 submit = st.button("submit")
 if submit:
-    if answer == "but":
+    correct_answers = ["who", "that"]
+    user_answer = answer.lower().strip()
+    if user_answer in correct_answers:
         st.success("Correct!!")
         st.balloons()
     else:
         st.error("Sorry!")
-        st.markdown("<https://otter.ai/s/kR-WbeUUT7asz52Hwv0DNQ?snpt=true>")
-
+        st.markdown("The correct answers are")
+        for ca in correct_answers:
+            st.markdown(f"* {ca}")
+    st.markdown("[Audio](<https://otter.ai/s/CMqz0gzRQuaqysgNFQms9A?snpt=true>)")
