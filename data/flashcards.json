@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is 2 + 2?",
+    "answers": ["4", "four"],
+    "tags": {
+      "language": "English",
+      "book": "Math101",
+      "chapter": 1,
+      "section": "arithmetic"
+    }
+  },
+  {
+    "question": "¿Cómo se dice 'hello' en español?",
+    "answers": ["hola"],
+    "tags": {
+      "language": "Spanish",
+      "book": "SpanishBasics",
+      "chapter": 1,
+      "section": "greetings"
+    }
+  }
+]

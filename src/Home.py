@@ -11,8 +11,8 @@ if submit:
         st.success("Correct!!")
         st.balloons()
     else:
-        st.error("Sorry!")
-        st.markdown("The correct answers are")
-        for ca in correct_answers:
-            st.markdown(f"* {ca}")
+        starred = [f'* {x}' for x in correct_answers]
+        joined = '\n'.join(starred)
+        verb = "are" if len(correct_answers) > 1 else "is"
+        st.error(f"Nope!\nThe correct answers {verb}:\n{joined}")
     st.markdown("[Audio](<https://otter.ai/s/CMqz0gzRQuaqysgNFQms9A?snpt=true>)")
