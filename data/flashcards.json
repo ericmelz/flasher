@@ -1,22 +1,32 @@
 [
   {
-    "question": "What is 2 + 2?",
-    "answers": ["4", "four"],
+    "question": "What is the English word for **Qué**?",
+    "answers": ["who", "that"],
     "tags": {
-      "language": "English",
-      "book": "Math101",
-      "chapter": 1,
-      "section": "arithmetic"
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
     }
   },
   {
-    "question": "¿Cómo se dice 'hello' en español?",
-    "answers": ["hola"],
+    "question": "¿Cómo se dice **that** en español??",
+    "answers": ["Qué"],
     "tags": {
       "language": "Spanish",
-      "book": "SpanishBasics",
-      "chapter": 1,
-      "section": "greetings"
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **who** en español??",
+    "answers": ["qué"],
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
     }
   }
 ]
