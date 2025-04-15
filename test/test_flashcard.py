@@ -4,7 +4,7 @@ from models.flashcard import Flashcard, FlashcardList
 
 @pytest.fixture
 def sample_flashcards():
-    return FlashcardList(__root__=[
+    return FlashcardList([
         Flashcard(
             question="What is 2 + 3?",
             answers=["5", "five", "cinco"],
