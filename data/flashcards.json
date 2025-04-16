@@ -238,7 +238,8 @@
   {
     "question": "What is the English word for **ni**?",
     "answers": [
-      "nor", "neither"
+      "nor",
+      "neither"
     ],
     "audio_url": "https://otter.ai/s/JTeb0EXvR3u8T3Wv1K4xIw?snpt=true",
     "tags": {
@@ -290,7 +291,8 @@
   {
     "question": "¿Cómo se dice **where** en español?",
     "answers": [
-      "donde", "dónde"
+      "donde",
+      "dónde"
     ],
     "audio_url": "https://otter.ai/s/sBOAkI7mQh2sVJgWuud8nQ?snpt=true",
     "tags": {
@@ -404,6 +406,74 @@
       "book": "Learning Spanish",
       "chapter": 3,
       "section": 1
+    }
+  },
+  //** template
+  {
+    "question": "What is the English word for ****?",
+    "answers": [
+      ""
+    ],
+    "audio_url": "",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **** en español?",
+    "answers": [
+      "while"
+    ],
+    "audio_url": "",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  //* end template
+
+  {
+    "question": "What is the English word for **en**?",
+    "answers": [
+      "in", "on"
+    ],
+    "audio_url": "https://otter.ai/s/ZeCjN-ClSxiWxfR7g88mgQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **in** en español?",
+    "answers": [
+      "en"
+    ],
+    "audio_url": "https://otter.ai/s/ZeCjN-ClSxiWxfR7g88mgQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **on** en español?",
+    "answers": [
+      "en"
+    ],
+    "audio_url": "https://otter.ai/s/ZeCjN-ClSxiWxfR7g88mgQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
     }
   }
 ]
