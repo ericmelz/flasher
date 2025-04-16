@@ -106,7 +106,7 @@
     }
   },
   {
-    "question": "¿Cómo se dice **as** en español??",
+    "question": "¿Cómo se dice **as** en español?",
     "answers": [
       "como"
     ],
@@ -130,7 +130,280 @@
       "chapter": 3,
       "section": 1
     }
-
+  },
+  {
+    "question": "What is the English word for **pero**?",
+    "answers": [
+      "but"
+    ],
+    "audio_url": "https://otter.ai/s/zkvlzxnvTNKRSZbUmRvRRg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **but** en español?",
+    "answers": [
+      "pero"
+    ],
+    "audio_url": "https://otter.ai/s/zkvlzxnvTNKRSZbUmRvRRg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **porque**?",
+    "answers": [
+      "because"
+    ],
+    "audio_url": "https://otter.ai/s/o5WWVzMvSASuto9qDMZuoA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **because** en español?",
+    "answers": [
+      "porque"
+    ],
+    "audio_url": "https://otter.ai/s/o5WWVzMvSASuto9qDMZuoA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **cuando**?",
+    "answers": [
+      "when"
+    ],
+    "audio_url": "https://otter.ai/s/EnvDTO9KSsasz6mEoa0EWA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **when** en español?",
+    "answers": [
+      "cuando"
+    ],
+    "audio_url": "https://otter.ai/s/EnvDTO9KSsasz6mEoa0EWA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **si**?",
+    "answers": [
+      "if"
+    ],
+    "audio_url": "https://otter.ai/s/drADdA9ESE6f5kzoRmugog?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **if** en español?",
+    "answers": [
+      "if"
+    ],
+    "audio_url": "https://otter.ai/s/drADdA9ESE6f5kzoRmugog?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **ni**?",
+    "answers": [
+      "nor", "neither"
+    ],
+    "audio_url": "https://otter.ai/s/JTeb0EXvR3u8T3Wv1K4xIw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **nor** en español?",
+    "answers": [
+      "ni"
+    ],
+    "audio_url": "https://otter.ai/s/JTeb0EXvR3u8T3Wv1K4xIw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **neither** en español?",
+    "answers": [
+      "ni"
+    ],
+    "audio_url": "https://otter.ai/s/JTeb0EXvR3u8T3Wv1K4xIw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **dónde**?",
+    "answers": [
+      "where"
+    ],
+    "audio_url": "https://otter.ai/s/sBOAkI7mQh2sVJgWuud8nQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **where** en español?",
+    "answers": [
+      "donde", "dónde"
+    ],
+    "audio_url": "https://otter.ai/s/sBOAkI7mQh2sVJgWuud8nQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **aunque**?",
+    "answers": [
+      "although"
+    ],
+    "audio_url": "https://otter.ai/s/8tAV7c4FQm6EQzFBy3dRCA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **although** en español?",
+    "answers": [
+      "aunque"
+    ],
+    "audio_url": "https://otter.ai/s/8tAV7c4FQm6EQzFBy3dRCA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **sino**?",
+    "answers": [
+      "but rather",
+      "but instead",
+      "except"
+    ],
+    "audio_url": "https://otter.ai/s/g08YCnEiRLmQfz0SdzH1yA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **but rather** en español?",
+    "answers": [
+      "sino"
+    ],
+    "audio_url": "https://otter.ai/s/g08YCnEiRLmQfz0SdzH1yA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **but instead** en español?",
+    "answers": [
+      "sino"
+    ],
+    "audio_url": "https://otter.ai/s/g08YCnEiRLmQfz0SdzH1yA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **except** en español?",
+    "answers": [
+      "sino"
+    ],
+    "audio_url": "https://otter.ai/s/g08YCnEiRLmQfz0SdzH1yA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **while**?",
+    "answers": [
+      "mientras"
+    ],
+    "audio_url": "https://otter.ai/s/JPa60AMsTym0WaIh4zQzsA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **mientras** en español?",
+    "answers": [
+      "while"
+    ],
+    "audio_url": "https://otter.ai/s/JPa60AMsTym0WaIh4zQzsA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
   }
-
 ]
