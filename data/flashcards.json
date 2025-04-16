@@ -409,32 +409,6 @@
     }
   },
   {
-    "question": "What is the English word for ****?",
-    "answers": [
-      ""
-    ],
-    "audio_url": "",
-    "tags": {
-      "language": "Spanish",
-      "book": "Learning Spanish",
-      "chapter": 3,
-      "section": 99
-    }
-  },
-  {
-    "question": "¿Cómo se dice **** en español?",
-    "answers": [
-      "while"
-    ],
-    "audio_url": "",
-    "tags": {
-      "language": "Spanish",
-      "book": "Learning Spanish",
-      "chapter": 3,
-      "section": 99
-    }
-  },
-  {
     "question": "What is the English word for **en**?",
     "answers": [
       "in", "on"
@@ -471,6 +445,151 @@
       "book": "Learning Spanish",
       "chapter": 3,
       "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **por**?",
+    "answers": [
+      "through",
+      "for"
+    ],
+    "audio_url": "https://otter.ai/s/z87u-41oQ8uSJTDqz38ExA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 99
+    }
+  },
+  {
+    "question": "¿Cómo se dice **through** en español?",
+    "answers": [
+      "por"
+    ],
+    "audio_url": "https://otter.ai/s/z87u-41oQ8uSJTDqz38ExA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **for** en español?",
+    "answers": [
+      "por"
+    ],
+    "audio_url": "https://otter.ai/s/z87u-41oQ8uSJTDqz38ExA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **con**?",
+    "answers": [
+      "with"
+    ],
+    "audio_url": "https://otter.ai/s/FxpD6e_pSFKuvyekYXPF8w?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **with** en español?",
+    "answers": [
+      "con"
+    ],
+    "audio_url": "https://otter.ai/s/FxpD6e_pSFKuvyekYXPF8w?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **para**?",
+    "answers": [
+      "in order to"
+    ],
+    "audio_url": "https://otter.ai/s/aUTyto14Qaa5C_czEIm2aQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **in order to** en español?",
+    "answers": [
+      "para"
+    ],
+    "audio_url": "https://otter.ai/s/aUTyto14Qaa5C_czEIm2aQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **sin**?",
+    "answers": [
+      "without"
+    ],
+    "audio_url": "https://otter.ai/s/jQZiv7FARb6L-BeioY3poQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **without** en español?",
+    "answers": [
+      "sin"
+    ],
+    "audio_url": "https://otter.ai/s/jQZiv7FARb6L-BeioY3poQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+
+  {
+    "question": "What is the English word for ****?",
+    "answers": [
+      ""
+    ],
+    "audio_url": "",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 99
+    }
+  },
+  {
+    "question": "¿Cómo se dice **** en español?",
+    "answers": [
+      ""
+    ],
+    "audio_url": "",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 99
     }
   }
 ]
