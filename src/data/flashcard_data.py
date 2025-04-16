@@ -6,7 +6,6 @@ from models.flashcard import Flashcard, FlashcardList
 
 class FlashcardData:
     def __init__(self, data_path: Path = Path(__file__).parent.parent.parent / "data" / "flashcards.json"):
-        print(f'***{data_path=}')
         self.data_path = data_path
         self.flashcards = self._load_data()
 
@@ -21,8 +20,10 @@ class FlashcardData:
         with self.data_path.open("w", encoding="utf-8") as f:
             json.dump(self.flashcards.to_list(), f, indent=2)
 
-    def get_random_flashcard(self) -> Flashcard:
-        return random.choice(self.flashcards.root)
+    def get_random_flashcard(self, tags=None) -> Flashcard:
+        if tags is None:
+            tags = {}
+        return random.choice(self.flashcards.filter_by_tags(tags))
 
     def get_all_flashcards(self) -> FlashcardList:
         return self.flashcards

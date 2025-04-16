@@ -16,14 +16,17 @@ class FlashcardList(RootModel[List[Flashcard]]):
     def __getitem__(self, item):
         return self.root[item]
 
+    def __len__(self):
+        return len(self.root)
+
     def append(self, flashcard: Flashcard):
         self.root.append(flashcard)
 
     def to_list(self):
         return [fc.dict() for fc in self.root]
 
-    def filter_by_tags(self, tag_values: List[Dict[str, Any]]) -> 'FlashcardList':
+    def filter_by_tags(self, tag_values: Dict[str, List[Any]]) -> 'FlashcardList':
         filtered = self.root
-        for key, value in tag_values:
-            filtered = [fc for fc in filtered if fc.tags.get(key) == value]
+        for key, values in tag_values.items():
+            filtered = [fc for fc in filtered if fc.tags.get(key) in values]
         return FlashcardList(filtered)

@@ -408,7 +408,6 @@
       "section": 1
     }
   },
-  //** template
   {
     "question": "What is the English word for ****?",
     "answers": [
@@ -419,7 +418,7 @@
       "language": "Spanish",
       "book": "Learning Spanish",
       "chapter": 3,
-      "section": 2
+      "section": 99
     }
   },
   {
@@ -432,11 +431,9 @@
       "language": "Spanish",
       "book": "Learning Spanish",
       "chapter": 3,
-      "section": 2
+      "section": 99
     }
   },
-  //* end template
-
   {
     "question": "What is the English word for **en**?",
     "answers": [
