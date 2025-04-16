@@ -21,7 +21,6 @@ if st.session_state["fc_state"] == "NEW_QUESTION":
     fc = data.get_random_flashcard()
     st.session_state["fc"] = fc
     question = fc.question
-    # TODO add this to data "What is the English word for **Qué**?"
 
 human_answer = st.text_input(st.session_state["fc"].question)
 
@@ -51,7 +50,6 @@ if st.session_state["fc_state"] == "GUESSED":
         verb = "are" if len(correct_answers) > 1 else "is"
         s = "s" if len(correct_answers) > 1 else ""
         st.error(f"Nope!\nThe correct answer{s} {verb}: {answer_display}")
-    print(f"***{st.session_state['fc']}")
     if st.session_state['fc'].audio_url is not None:
         audio_url = st.session_state['fc'].audio_url
         st.markdown(f"[Audio]({audio_url})")

@@ -64,5 +64,73 @@
       "chapter": 3,
       "section": 1
     }
+  },
+  {
+    "question": "What is the English word for **o**?",
+    "answers": [
+      "or"
+    ],
+    "audio_url": "https://otter.ai/s/rHR7fmR7QpmJ9Zn8XKKD_g?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **or** en español??",
+    "answers": [
+      "o"
+    ],
+    "audio_url": "https://otter.ai/s/rHR7fmR7QpmJ9Zn8XKKD_g?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "What is the English word for **como**?",
+    "answers": [
+      "as",
+      "like"
+    ],
+    "audio_url": "https://otter.ai/s/-xzAw8LiQpOgx3UhvbkLmw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **as** en español??",
+    "answers": [
+      "como"
+    ],
+    "audio_url": "https://otter.ai/s/-xzAw8LiQpOgx3UhvbkLmw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+  },
+  {
+    "question": "¿Cómo se dice **like** en español??",
+    "answers": [
+      "como"
+    ],
+    "audio_url": "https://otter.ai/s/-xzAw8LiQpOgx3UhvbkLmw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 1
+    }
+
   }
+
 ]
