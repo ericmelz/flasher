@@ -68,7 +68,7 @@ def test_get_random_flashcard_with_filtering(tmp_path, sample_flashcards):
     counter = 0
     for _ in range(10_000):
         counter += 1
-        fc = db.get_random_flashcard({"book": "Geo"})
+        fc = db.get_random_flashcard({"book": ["Geo"]})
 
         assert FlashcardData
         assert fc.question == "What's the capital of France?"
