@@ -411,7 +411,8 @@
   {
     "question": "What is the English word for **en**?",
     "answers": [
-      "in", "on"
+      "in",
+      "on"
     ],
     "audio_url": "https://otter.ai/s/ZeCjN-ClSxiWxfR7g88mgQ?snpt=true",
     "tags": {
@@ -558,6 +559,188 @@
       "sin"
     ],
     "audio_url": "https://otter.ai/s/jQZiv7FARb6L-BeioY3poQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **sobre**?",
+    "answers": [
+      "about"
+    ],
+    "audio_url": "https://otter.ai/s/xV9XrZrXRrK-JD80fMKf4w?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **about** en español?",
+    "answers": [
+      "sobre"
+    ],
+    "audio_url": "https://otter.ai/s/xV9XrZrXRrK-JD80fMKf4w?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **entre**?",
+    "answers": [
+      "between"
+    ],
+    "audio_url": "https://otter.ai/s/1-NSuX-STQui4LHkcohVxg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **between** en español?",
+    "answers": [
+      "entre"
+    ],
+    "audio_url": "https://otter.ai/s/1-NSuX-STQui4LHkcohVxg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **hasta**?",
+    "answers": [
+      "until"
+    ],
+    "audio_url": "https://otter.ai/s/i02fX8OVT4OHoSMGmVDgmA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **until** en español?",
+    "answers": [
+      "hasta"
+    ],
+    "audio_url": "https://otter.ai/s/i02fX8OVT4OHoSMGmVDgmA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **desde**?",
+    "answers": [
+      "from"
+    ],
+    "audio_url": "https://otter.ai/s/R8497-BbSSy0PN5aM9uVhw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **from** en español?",
+    "answers": [
+      "desde"
+    ],
+    "audio_url": "https://otter.ai/s/R8497-BbSSy0PN5aM9uVhw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **contra**?",
+    "answers": [
+      "against"
+    ],
+    "audio_url": "https://otter.ai/s/WqzX1nkYToS69lilaGwkLA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **against** en español?",
+    "answers": [
+      "contra"
+    ],
+    "audio_url": "https://otter.ai/s/WqzX1nkYToS69lilaGwkLA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **towards**?",
+    "answers": [
+      "hacia"
+    ],
+    "audio_url": "https://otter.ai/s/BG5GS2WCSS2wJb6ZNx40PA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **towards** en español?",
+    "answers": [
+      "hacia"
+    ],
+    "audio_url": "https://otter.ai/s/BG5GS2WCSS2wJb6ZNx40PA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "What is the English word for **según**?",
+    "answers": [
+      "according to"
+    ],
+    "audio_url": "https://otter.ai/s/xuFI25iFQVasJ7v1JJg1nA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 2
+    }
+  },
+  {
+    "question": "¿Cómo se dice **according to** en español?",
+    "answers": [
+      "según"
+    ],
+    "audio_url": "https://otter.ai/s/xuFI25iFQVasJ7v1JJg1nA?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",

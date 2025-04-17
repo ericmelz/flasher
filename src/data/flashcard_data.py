@@ -25,6 +25,11 @@ class FlashcardData:
             tags = {}
         return random.choice(self.flashcards.filter_by_tags(tags))
 
+    def get_last_flashcard(self, tags=None) -> Flashcard:
+        if tags is None:
+            tags = {}
+        return self.flashcards.filter_by_tags(tags)[-1]
+
     def get_all_flashcards(self) -> FlashcardList:
         return self.flashcards
 
