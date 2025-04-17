@@ -18,10 +18,10 @@ data = st.session_state["flashcard_data"]
 
 if st.session_state["fc_state"] == "NEW_QUESTION":
     st.session_state["fc_state"] = "ANSWERING"
-    tags = {"section": [2]}
-    fc = data.get_random_flashcard(tags)
+    tags = {"section": [3]}
+    # fc = data.get_random_flashcard(tags)
     # This is useful while developing / testing data
-    # fc = data.get_last_flashcard(tags)
+    fc = data.get_last_flashcard(tags)
     st.session_state["fc"] = fc
     question = fc.question
 
@@ -39,7 +39,7 @@ def reset():
 
 if st.session_state["fc_state"] == "GUESSED":
     # Note here we use the saved flashcard from when we entered the ANSWERING state
-    correct_answers = st.session_state['fc'].answers
+    correct_answers = [a.lower() for a in st.session_state['fc'].answers]
     user_answer = human_answer.lower().strip()
     if user_answer in correct_answers:
         st.success("Correct!!")
