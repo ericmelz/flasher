@@ -18,10 +18,10 @@ data = st.session_state["flashcard_data"]
 
 if st.session_state["fc_state"] == "NEW_QUESTION":
     st.session_state["fc_state"] = "ANSWERING"
-    tags = {"section": [3]}
-    # fc = data.get_random_flashcard(tags)
+    tags = {"section": [2,3]}
+    fc = data.get_random_flashcard(tags)
     # This is useful while developing / testing data
-    fc = data.get_last_flashcard(tags)
+    # fc = data.get_last_flashcard(tags)
     st.session_state["fc"] = fc
     question = fc.question
 
