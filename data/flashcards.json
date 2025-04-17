@@ -383,9 +383,9 @@
     }
   },
   {
-    "question": "What is the English word for **while**?",
+    "question": "What is the English word for **mientras**?",
     "answers": [
-      "mientras"
+      "while"
     ],
     "audio_url": "https://otter.ai/s/JPa60AMsTym0WaIh4zQzsA?snpt=true",
     "tags": {
@@ -396,9 +396,9 @@
     }
   },
   {
-    "question": "¿Cómo se dice **mientras** en español?",
+    "question": "¿Cómo se dice **while** en español?",
     "answers": [
-      "while"
+      "mientras"
     ],
     "audio_url": "https://otter.ai/s/JPa60AMsTym0WaIh4zQzsA?snpt=true",
     "tags": {
