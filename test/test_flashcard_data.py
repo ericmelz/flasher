@@ -57,3 +57,20 @@ def test_get_random_flashcard(tmp_path, sample_flashcards):
 
     assert FlashcardData
     assert fc.question in [item["question"] for item in sample_flashcards]
+
+
+def test_get_random_flashcard_with_filtering(tmp_path, sample_flashcards):
+    json_file = tmp_path / "flashcards.json"
+    json_file.write_text(json.dumps(sample_flashcards), encoding="utf-8")
+
+    db = FlashcardData(data_path=Path(json_file))
+
+    counter = 0
+    for _ in range(10_000):
+        counter += 1
+        fc = db.get_random_flashcard({"book": "Geo"})
+
+        assert FlashcardData
+        assert fc.question == "What's the capital of France?"
+
+    assert counter == 10_000
