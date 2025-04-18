@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flasher
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flasher
+  template:
+    metadata:
+      labels:
+        app: flasher
+    spec:
+      containers:
+      - name: flasher
+        image: flasher:latest
+        imagePullPolicy: Never  # Since we're using local image in k3d
+        # Append the base‑path flag so Streamlit serves under /flasher
+        args:
+          - "--server.baseUrlPath"
+          - "/flasher"
+        ports:
+        - name: http
+          containerPort: 9999

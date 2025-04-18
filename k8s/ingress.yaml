@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: flasher
+
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /flasher
+        pathType: Prefix
+        backend:
+          service:
+            name: flasher
+            port:
+              number: 80 
+
