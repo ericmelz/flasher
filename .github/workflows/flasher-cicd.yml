@@ -41,9 +41,21 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install pytest
           
-      - name: Run tests
+      - name: Fix imports and run tests
         run: |
-          # Add the project root to PYTHONPATH to enable imports
+          # The key issue is that the tests can't find the src package
+          # Let's make absolutely sure our package is importable
+          
+          # Create or update a conftest.py in the test directory
+          echo 'import sys, os; sys.path.insert(0, os.path.abspath("."))' > test/conftest.py
+          
+          # Create an empty __init__.py in the test directory to make it a package
+          touch test/__init__.py
+          
+          # Verify the package structure
+          ls -la src/ src/models/ src/data/
+          
+          # Run pytest with the PYTHONPATH set explicitly
           PYTHONPATH=$PYTHONPATH:$(pwd) pytest -v
 
   build:

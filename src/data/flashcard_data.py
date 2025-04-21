@@ -1,7 +1,7 @@
 import json
 import random
 from pathlib import Path
-from models.flashcard import Flashcard, FlashcardList
+from src.models.flashcard import Flashcard, FlashcardList
 
 
 class FlashcardData:
