@@ -3,12 +3,15 @@ FROM python:3.9-slim
 WORKDIR /app
 
 COPY requirements.txt .
-COPY setup.py .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install -e .
 
+# Copy source code first
 COPY src/ /app/src
 COPY data/ /app/data
+COPY setup.py .
+
+# Then install the package in editable mode
+RUN pip install -e .
 
 EXPOSE 9999
 
