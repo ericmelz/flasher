@@ -20,7 +20,7 @@ if "flashcard_data" not in st.session_state:
     st.session_state["fc_state"] = "NEW_QUESTION"
     st.session_state["fc"] = None
 
-st.title("Flasher")
+st.title("⚡ Flasher")
 
 data = st.session_state["flashcard_data"]
 
