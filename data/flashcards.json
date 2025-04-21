@@ -466,7 +466,8 @@
   {
     "question": "¿Cómo se dice **at** en español?",
     "answers": [
-      "en"
+      "en",
+      "a"
     ],
     "audio_url": "https://otter.ai/s/ZeCjN-ClSxiWxfR7g88mgQ?snpt=true",
     "tags": {
@@ -730,7 +731,8 @@
   {
     "question": "¿Cómo se dice **from** en español?",
     "answers": [
-      "desde"
+      "desde",
+      "de"
     ],
     "audio_url": "https://otter.ai/s/R8497-BbSSy0PN5aM9uVhw?snpt=true",
     "tags": {
@@ -1190,7 +1192,8 @@
   {
     "question": "¿Cómo se dice **one** en español?",
     "answers": [
-      "uno"
+      "uno",
+      "un"
     ],
     "audio_url": "https://otter.ai/s/SpXxtTpCTamjVRxtdx1SGg?snpt=true",
     "tags": {
@@ -1305,29 +1308,374 @@
     }
   },
   {
-    "question": "What is the English word for ****?",
+    "question": "What is the English word for **lo**?",
     "answers": [
-      ""
+      "it",
+      "him"
     ],
-    "audio_url": "",
+    "audio_url": "https://otter.ai/s/D2jYaNomSiqSBXlHOjKi-g?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",
       "chapter": 3,
-      "section": 99
+      "section": 5
     }
   },
   {
-    "question": "¿Cómo se dice **** en español?",
+    "question": "What is the English word for **usted**?",
     "answers": [
-      ""
+      "you"
     ],
-    "audio_url": "",
+    "audio_url": "https://otter.ai/s/5BfJv2gnQ3OGHBXVpUK_UQ?snpt=true",
     "tags": {
       "language": "Spanish",
       "book": "Learning Spanish",
       "chapter": 3,
-      "section": 99
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **tenido**?",
+    "answers": [
+      "had"
+    ],
+    "audio_url": "https://otter.ai/s/djfM1XBcRESnWMi9jD4DlA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **la**?",
+    "answers": [
+      "the"
+    ],
+    "audio_url": "https://otter.ai/s/nRVHNdSgSo6mncDsEsbRJw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **de**?",
+    "answers": [
+      "of",
+      "from"
+    ],
+    "audio_url": "https://otter.ai/s/hHuze4DtRCq2Qu92Vhhn7Q?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **a**?",
+    "answers": [
+      "to",
+      "at"
+    ],
+    "audio_url": "https://otter.ai/s/bi4C0BFdS9GzMneCOYKQTg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **un**?",
+    "answers": [
+      "a",
+      "an",
+      "one"
+    ],
+    "audio_url": "https://otter.ai/s/F1DExAs9Qai9sFvGl3dP9A?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **nosotros**?",
+    "answers": [
+      "we"
+    ],
+    "audio_url": "https://otter.ai/s/ODDxhyUKRl-PhLQHERe0Dg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **lata**?",
+    "answers": [
+      "can"
+    ],
+    "audio_url": "https://otter.ai/s/xjAlcExbTgqALsjSWYVZow?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **fuera**?",
+    "answers": [
+      "out",
+      "outside"
+    ],
+    "audio_url": "https://otter.ai/s/0joF43ERQqC6qHi69J1FjA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **otros**?",
+    "answers": [
+      "other",
+      "others"
+    ],
+    "audio_url": "https://otter.ai/s/PgEkQHYkQFGIGNOJsNItvw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "What is the English word for **eran**?",
+    "answers": [
+      "were"
+    ],
+    "audio_url": "https://otter.ai/s/VqilCNQTS32lTOgCR_mPkw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **it** en español?",
+    "answers": [
+      "lo"
+    ],
+    "audio_url": "https://otter.ai/s/D2jYaNomSiqSBXlHOjKi-g?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **him** en español?",
+    "answers": [
+      "lo"
+    ],
+    "audio_url": "https://otter.ai/s/D2jYaNomSiqSBXlHOjKi-g?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **you** en español?",
+    "answers": [
+      "usted"
+    ],
+    "audio_url": "https://otter.ai/s/5BfJv2gnQ3OGHBXVpUK_UQ?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **had** en español?",
+    "answers": [
+      "tenido"
+    ],
+    "audio_url": "https://otter.ai/s/djfM1XBcRESnWMi9jD4DlA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **the** en español?",
+    "answers": [
+      "la"
+    ],
+    "audio_url": "https://otter.ai/s/nRVHNdSgSo6mncDsEsbRJw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **of** en español?",
+    "answers": [
+      "de"
+    ],
+    "audio_url": "https://otter.ai/s/hHuze4DtRCq2Qu92Vhhn7Q?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **to** en español?",
+    "answers": [
+      "a"
+    ],
+    "audio_url": "https://otter.ai/s/bi4C0BFdS9GzMneCOYKQTg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **a** en español?",
+    "answers": [
+      "un"
+    ],
+    "audio_url": "https://otter.ai/s/F1DExAs9Qai9sFvGl3dP9A?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **an** en español?",
+    "answers": [
+      "un"
+    ],
+    "audio_url": "https://otter.ai/s/F1DExAs9Qai9sFvGl3dP9A?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **we** en español?",
+    "answers": [
+      "nosotros"
+    ],
+    "audio_url": "https://otter.ai/s/ODDxhyUKRl-PhLQHERe0Dg?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **can** en español?",
+    "answers": [
+      "lata"
+    ],
+    "audio_url": "https://otter.ai/s/xjAlcExbTgqALsjSWYVZow?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **out** en español?",
+    "answers": [
+      "fuera"
+    ],
+    "audio_url": "https://otter.ai/s/0joF43ERQqC6qHi69J1FjA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **outside** en español?",
+    "answers": [
+      "fuera"
+    ],
+    "audio_url": "https://otter.ai/s/0joF43ERQqC6qHi69J1FjA?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **other** en español?",
+    "answers": [
+      "otros"
+    ],
+    "audio_url": "https://otter.ai/s/PgEkQHYkQFGIGNOJsNItvw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **others** en español?",
+    "answers": [
+      "otros"
+    ],
+    "audio_url": "https://otter.ai/s/PgEkQHYkQFGIGNOJsNItvw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
+    }
+  },
+  {
+    "question": "¿Cómo se dice **were** en español?",
+    "answers": [
+      "eran"
+    ],
+    "audio_url": "https://otter.ai/s/VqilCNQTS32lTOgCR_mPkw?snpt=true",
+    "tags": {
+      "language": "Spanish",
+      "book": "Learning Spanish",
+      "chapter": 3,
+      "section": 5
     }
   }
 ]
