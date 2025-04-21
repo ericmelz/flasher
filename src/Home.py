@@ -1,6 +1,14 @@
 import streamlit as st
 from src.data.flashcard_data import FlashcardData
 
+# Configure the page with an appropriate icon and title
+st.set_page_config(
+    page_title="Flasher - Flashcard App",
+    page_icon="⚡", # Lightning bolt - symbolizes flash/flashcards
+    layout="centered",
+    initial_sidebar_state="collapsed"
+)
+
 if "flashcard_data" not in st.session_state:
     # Here we are entering the app for the first time.
     # We initialize the database and set the question state to NEW_QUESTION
@@ -19,9 +27,9 @@ data = st.session_state["flashcard_data"]
 if st.session_state["fc_state"] == "NEW_QUESTION":
     st.session_state["fc_state"] = "ANSWERING"
     tags = {"section": [5]}
-    # fc = data.get_random_flashcard(tags)
+    fc = data.get_random_flashcard(tags)
     # This is useful while developing / testing data
-    fc = data.get_last_flashcard(tags)
+    # fc = data.get_last_flashcard(tags)
     st.session_state["fc"] = fc
     question = fc.question
 
