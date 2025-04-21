@@ -1,5 +1,5 @@
 import streamlit as st
-from data.flashcard_data import FlashcardData
+from src.data.flashcard_data import FlashcardData
 
 if "flashcard_data" not in st.session_state:
     # Here we are entering the app for the first time.
